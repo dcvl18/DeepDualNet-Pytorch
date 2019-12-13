@@ -1,1 +1,1 @@
-# Face Anti-Spoofing Using Deep Dual Network (DDN) -- The code will be coming soon !!
+# Face Anti-Spoofing Using Deep Dual Network -- The code will be coming soon !!
