@@ -1,5 +1,11 @@
 # Face Anti-Spoofing Using Deep Dual Network -- The code will be coming soon !!
 
+### The examples of our constructed dataset
+<p align="center">
+<img src="https://user-images.githubusercontent.com/58552068/70987674-b7c54a00-2103-11ea-9a73-ddcf2f8510a8.png" />
+</p>
+
+
 ### The examples of face anti-spoofing
 <p align="center">
  
