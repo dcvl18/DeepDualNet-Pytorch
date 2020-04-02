@@ -12,6 +12,12 @@ An implementation of DeepDualNet using Pytorch
 * torchvision==0.3.0
 * opencv-python
 
+
+## Train and Test
+
+You can train and test the model by "python train.py". After training the model, we immediately test the trained model.
+
+
 ## Dataset
 
 We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot share it in public. Instead of sharing all of it, we offer one subject to test the model.
@@ -21,10 +27,6 @@ We construct the dataset using a stereo camera with 50 subjects by ourselves, bu
 <img src="https://user-images.githubusercontent.com/58552068/70987797-f4914100-2103-11ea-8f81-7dbf3ec12540.png" />
 </p>
 The pairs of live and fake images taken by the stereo camera and cropped face images by [1]. First row: live pairs and the cropped faces from the pairs. Second row: spoofing attacks via the printed paper and the cropped faces. Third row: spoofing attacks using the tablet and the cropped faces.
-
-## Train and Test
-
-You can train and test the model by "python train.py". After training the model, we immediately test the trained model.
 
 ## The proposed DeepDualNet for face anti-spoofing
 
@@ -41,10 +43,6 @@ You can train and test the model by "python train.py". After training the model,
 |**DeepDualNet** | <center>50</center> |*0.48* |
 
 Compared to this method of which EER is 0.68 based on the dataset that total 35 subjects participated in, the proposed deep dual network yields more reliable performance, i.e., EER=0.48.
-
-
-
-
 
 
 ## The examples of face anti-spoofing
