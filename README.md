@@ -9,7 +9,7 @@ An implementation of DeepDualNet using Pytorch
 ## Requirment
 
 * torch==1.1.0
-* torchvision=0.3.0
+* torchvision==0.3.0
 * opencv-python
 
 ## Dataset
