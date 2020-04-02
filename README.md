@@ -1,6 +1,6 @@
 # Face Anti-Spoofing Using Deep Dual Network
 
-"Face anti-spoofing using deep dual network," is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
+**"Face anti-spoofing using deep dual network,"** is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 
 ## Overview
 
