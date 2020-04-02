@@ -61,6 +61,6 @@ The examples of demonstrations based on a single laptop PC with i7-8750H@2.20GHz
 
 
 ## References
-[1] P. Hu and D. Ramanan, “Finding tiny faces,” in Proc. IEEE Int. Conf. Comput. Vis. Pattern Recognit., pp. 1522-1530, Jul. 2017.
-[2] X. Sun, L Huang, and C Liu, “Dual camera based feature for face spoofing detection,” in Proc. Chi. Conf. Pattern Recognit., pp. 332-344, Nov. 2016
+* [1] P. Hu and D. Ramanan, “Finding tiny faces,” in Proc. IEEE Int. Conf. Comput. Vis. Pattern Recognit., pp. 1522-1530, Jul. 2017.
+* [2] X. Sun, L Huang, and C Liu, “Dual camera based feature for face spoofing detection,” in Proc. Chi. Conf. Pattern Recognit., pp. 332-344, Nov. 2016
 
