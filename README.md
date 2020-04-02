@@ -16,7 +16,7 @@ An implementation of DeepDualNet using Pytorch
 
 We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot share it in public. Instead of sharing all of it, we offer one subject to test the model.
 
-## The examples of our constructed dataset
+### The examples of our constructed dataset
 <p align="center">
 <img src="https://user-images.githubusercontent.com/58552068/70987797-f4914100-2103-11ea-8f81-7dbf3ec12540.png" />
 </p>
