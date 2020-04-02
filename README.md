@@ -14,7 +14,7 @@ An implementation of DeepDualNet using Pytorch
 
 ## Dataset
 
-We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot open it in public. Instead of sharing all of it, we offer one subject to test the model.
+We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot share it in public. Instead of sharing all of it, we offer one subject to test the model.
 
 ## Train and Test
 
