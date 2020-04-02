@@ -30,13 +30,13 @@ if __name__ == '__main__':
     dirname='../../2_1.DCVL_Face_DB/'           # dir of dataset
     cuda = torch.cuda.is_available()
     net_dir = 'model'                       # dir where model will be saved
+    DeepDual = DeepDual()
     if not os.path.exists(net_dir):
         os.makedirs(net_dir)
     epoch_num = 100
     mask=list(range(1,51))
     for trial in range(50):
-        if mask[0]>4:
-            DeepDual = DeepDual()
+        if mask[0]>0:
             net_path=os.path.join(net_dir,'model_%02d.pth'%(trial))
             train_dataset = loader.dataset(root_dir=dirname,mask=mask[1:])
             train_loader = torch.utils.data.DataLoader(train_dataset,batch_size=1000,
