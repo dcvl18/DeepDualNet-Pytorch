@@ -30,11 +30,13 @@ You can train and test the model by "python train.py". After training the model,
 
 |  <center>Method</center> |  <center>Number of subjects</center> |  <center>EER</center> |
 |:--------|:--------:|--------:|
-|**X. Sun et al.** | <center>35</center> |*0.68* |
+|**X. Sun et al.[1]** | <center>35</center> |*0.68* |
 |**DeepDualNet** | <center>35</center> |*0.51* |
 |**DeepDualNet** | <center>50</center> |*0.48* |
 
 Compared to this method of which EER is 0.68 based on the dataset that total 35 subjects participated in, the proposed deep dual network yields more reliable performance, i.e., EER=0.48.
+
+
 
 ## The examples of our constructed dataset
 <p align="center">
@@ -55,3 +57,7 @@ The examples of demonstrations based on a single laptop PC with i7-8750H@2.20GHz
 <p align="center">
 <img src="https://user-images.githubusercontent.com/58552068/70986341-0e7d5480-2101-11ea-89bf-d51c5a9b0340.png" />
 </p>
+
+
+
+[1] X. Sun, L Huang, and C Liu, “Dual camera based feature for face spoofing detection,” in Proc. Chi. Conf. Pattern Recognit., pp. 332-344, Nov. 2016
