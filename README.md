@@ -16,6 +16,12 @@ An implementation of DeepDualNet using Pytorch
 
 We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot share it in public. Instead of sharing all of it, we offer one subject to test the model.
 
+## The examples of our constructed dataset
+<p align="center">
+<img src="https://user-images.githubusercontent.com/58552068/70987797-f4914100-2103-11ea-8f81-7dbf3ec12540.png" />
+</p>
+The pairs of live and fake images taken by the stereo camera and cropped face images by [1]. First row: live pairs and the cropped faces from the pairs. Second row: spoofing attacks via the printed paper and the cropped faces. Third row: spoofing attacks using the tablet and the cropped faces.
+
 ## Train and Test
 
 You can train and test the model by "python train.py". After training the model, we immediately test the trained model.
@@ -30,7 +36,7 @@ You can train and test the model by "python train.py". After training the model,
 
 |  <center>Method</center> |  <center>Number of subjects</center> |  <center>EER</center> |
 |:--------|:--------:|--------:|
-|**X. Sun et al.[1]** | <center>35</center> |*0.68* |
+|**X. Sun et al.[2]** | <center>35</center> |*0.68* |
 |**DeepDualNet** | <center>35</center> |*0.51* |
 |**DeepDualNet** | <center>50</center> |*0.48* |
 
@@ -38,10 +44,7 @@ Compared to this method of which EER is 0.68 based on the dataset that total 35 
 
 
 
-## The examples of our constructed dataset
-<p align="center">
-<img src="https://user-images.githubusercontent.com/58552068/70987797-f4914100-2103-11ea-8f81-7dbf3ec12540.png" />
-</p>
+
 
 
 ## The examples of face anti-spoofing
@@ -60,4 +63,6 @@ The examples of demonstrations based on a single laptop PC with i7-8750H@2.20GHz
 
 
 ## References
-[1] X. Sun, L Huang, and C Liu, “Dual camera based feature for face spoofing detection,” in Proc. Chi. Conf. Pattern Recognit., pp. 332-344, Nov. 2016
+[1] P. Hu and D. Ramanan, “Finding tiny faces,” in Proc. IEEE Int. Conf. Comput. Vis. Pattern Recognit., pp. 1522-1530, Jul. 2017.
+[2] X. Sun, L Huang, and C Liu, “Dual camera based feature for face spoofing detection,” in Proc. Chi. Conf. Pattern Recognit., pp. 332-344, Nov. 2016
+
