@@ -1,10 +1,10 @@
 # Face Anti-Spoofing Using Deep Dual Network
 
-### "Face anti-spoofing using deep dual network," is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and Wonjun Kim*
+"Face anti-spoofing using deep dual network," is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and Wonjun Kim*
 
 ## Overview
 
-### An implementation of DeepDualNet using Pytorch
+An implementation of DeepDualNet using Pytorch
 
 ## Requirment
 
@@ -16,7 +16,17 @@
 ### We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot open it in public. Instead of sharing all of it, we offer one subject to test the model.
 
 ## Train and Test
-### You can train and test the model by "python train.py"
+You can train and test the model by "python train.py"
+
+## Experimental Results
+
+|  <center>Method</center> |  <center>Number of subjects</center> |  <center>EER</center> |
+|:--------|:--------:|--------:|
+|**X. Sun et al.** | <center>35</center> |*0.68* |
+|**DeepDualNet** | <center>35</center> |*0.51* |
+|**DeepDualNet** | <center>50</center> |*0.48* |
+
+Compared to this method of which EER is 0.68 based on the dataset that total 35 subjects participated in, the proposed deep dual network yields more reliable performance, i.e., EER=0.48
 
 ### The examples of our constructed dataset
 <p align="center">
