@@ -8,15 +8,17 @@ An implementation of DeepDualNet using Pytorch
 
 ## Requirment
 
-### torch==1.1.0
-### torchvision=0.3.0
-### opencv-python
+* torch==1.1.0
+* torchvision=0.3.0
+* opencv-python
 
 ## Dataset
-### We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot open it in public. Instead of sharing all of it, we offer one subject to test the model.
+
+We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot open it in public. Instead of sharing all of it, we offer one subject to test the model.
 
 ## Train and Test
-You can train and test the model by "python train.py"
+
+You can train and test the model by "python train.py". After training the model, we immediately test the trained model.
 
 ## Experimental Results
 
@@ -26,7 +28,7 @@ You can train and test the model by "python train.py"
 |**DeepDualNet** | <center>35</center> |*0.51* |
 |**DeepDualNet** | <center>50</center> |*0.48* |
 
-Compared to this method of which EER is 0.68 based on the dataset that total 35 subjects participated in, the proposed deep dual network yields more reliable performance, i.e., EER=0.48
+Compared to this method of which EER is 0.68 based on the dataset that total 35 subjects participated in, the proposed deep dual network yields more reliable performance, i.e., EER=0.48.
 
 ### The examples of our constructed dataset
 <p align="center">
