@@ -2,7 +2,7 @@ import csv
 import numpy as np
 if __name__ == '__main__':
     EERs=[]
-    for cl in range(34):
+    for cl in range(50):
         print(cl)
         threshold = 0
         fn, fp = 0, 0
@@ -25,8 +25,8 @@ if __name__ == '__main__':
             f.close()
             threshold=threshold+0.01
         EERs.append(fp/(2*cnt*(len(line)-2)/3))
-        print("test에 사용한 사람의 수:%d"%(cnt/3))
-        print("test에 sequence의 길이:%d"%(len(line)-2))
+        print("the number of subjects for test:%d"%(cnt/3))
+        print("the len of sequence for test:%d"%(len(line)-2))
     print("EER:")
     for EER in EERs:
         print(EER)
