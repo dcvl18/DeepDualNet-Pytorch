@@ -1,4 +1,22 @@
-# Face Anti-Spoofing Using Deep Dual Network -- The code will be coming soon !!
+# Face Anti-Spoofing Using Deep Dual Network
+
+### "Face anti-spoofing using deep dual network," is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and Wonjun Kim*
+
+## Overview
+
+### An implementation of DeepDualNet using Pytorch
+
+## Requirment
+
+### torch==1.1.0
+### torchvision=0.3.0
+### opencv-python
+
+## Dataset
+### We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately we cannot open it in public. Instead of sharing all of it, we offer one subject to test the model.
+
+## Train and Test
+### You can train and test the model by "python train.py"
 
 ### The examples of our constructed dataset
 <p align="center">
