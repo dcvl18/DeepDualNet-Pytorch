@@ -20,13 +20,14 @@ You can train and test the model by "python train.py". After training the model,
 ## Pre-trained model
 We trained the model with 49 subject and test the model with the remained subject.
 
-[Model](https://drive.google.com/file/d/1kNuxDYlxpnVxc6PDyBmPc02q3GO1FctU/view?usp=sharing)
+* [Model](https://drive.google.com/file/d/1kNuxDYlxpnVxc6PDyBmPc02q3GO1FctU/view?usp=sharing)
 
 ## Dataset
 
 We construct the dataset using a stereo camera with 50 subjects by ourselves, but unfortunately the constructed dataset is not available in public. Instead of sharing all of it, we offer one subject to test our model.
 The dataset we uploaded includes live images and screen and print attacks (The number of image pairs taken by the stereo camera is 135).
-[Author's data](https://drive.google.com/file/d/1tc3A1SCwMXWjEq1o3hy1R1izNRbE6jCZ/view?usp=sharing)
+
+* [Author's image](https://drive.google.com/file/d/1tc3A1SCwMXWjEq1o3hy1R1izNRbE6jCZ/view?usp=sharing)
 
 ### The examples of our constructed dataset
 <p align="center">
