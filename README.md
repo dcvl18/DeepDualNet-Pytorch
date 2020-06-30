@@ -1,6 +1,10 @@
 # Face Anti-Spoofing Using Deep Dual Network
 
-**"Face anti-spoofing using deep dual network,"** is accepted in IEIE Transactions on Smart Processing and Computing, accepted, Mar. 2020, written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
+This repository is a pytorch implementation of the paper **["Face anti-spoofing using deep dual network"](https://drive.google.com/file/d/177OOt-w28brWbylLpbgtRfrpQDeYtdiM/view?usp=sharing)** in IEIE Transactions on Smart Processing and Computing written by Yongjae Gwak, Chanho Jeong, J-H. Roh, S. Cho, and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
+
+When our method is useful for your research, please consider citing the follow paper:
+Yongjae Gwak, Chanho Jeong, Jong-hyuk Roh, Sangrae Cho, and Wonjun Kim, "Face Anti-Spoofing Using Deep Dual Network," in IEIE Transactions on Smart Processing and Computing, Vol. 9, pp. 203-211, Jun, 2020.
+
 
 ## Overview
 
